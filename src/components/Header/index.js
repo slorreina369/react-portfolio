@@ -1,4 +1,5 @@
 import React from "react";
+import Nav from "../Nav";
 
 function Header(){
     return(
@@ -8,30 +9,8 @@ function Header(){
                     Lore Space
                 </a>
             </h2>
-            <nav>
-                <ul style={{listStyleType:"none"}}>
-                    <li className="mx-2">
-                        <a href='#about'>
-                            About Me
-                        </a>
-                    </li>
-                    <li className="mx-2">
-                        <a href="#portfolio">
-                            Portfolio
-                        </a>
-                    </li>
-                    <li className="mx-2">
-                        <a href="contact">
-                            Contact
-                        </a>
-                    </li>
-                    <li className="mx-2">
-                        <a href="Resume">
-                            Resume
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+
+            <Nav></Nav>
         </header>
     );
 };
