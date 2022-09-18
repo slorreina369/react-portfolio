@@ -10,7 +10,7 @@ function Header(){
                 </a>
             </h2>
 
-            <Nav></Nav>
+            <Nav/>
         </header>
     );
 };

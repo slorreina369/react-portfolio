@@ -50,3 +50,14 @@ ul{
   margin-right: auto;
   justify-content: space-around;
 }
+
+footer{
+  position: fixed;
+  width: 100%;
+  background-color: var(--secondary);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  bottom: 0;
+}
