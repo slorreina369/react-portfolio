@@ -2,30 +2,30 @@ import React from "react";
 
 function Header(){
     return(
-        <header>
+        <header className="flex-row px-1">
             <h2>
                 <a data-testid='link' href='/'>
                     Lore Space
                 </a>
             </h2>
             <nav>
-                <ul>
-                    <li>
+                <ul style={{listStyleType:"none"}}>
+                    <li className="mx-2">
                         <a href='#about'>
                             About Me
                         </a>
                     </li>
-                    <li>
+                    <li className="mx-2">
                         <a href="#portfolio">
                             Portfolio
                         </a>
                     </li>
-                    <li>
+                    <li className="mx-2">
                         <a href="contact">
                             Contact
                         </a>
                     </li>
-                    <li>
+                    <li className="mx-2">
                         <a href="Resume">
                             Resume
                         </a>
