@@ -3,8 +3,8 @@ import Nav from "../Nav";
 
 function Header(props){
     const{
-        contactSelected,
-        setContactSelected
+        currentPage,
+        setCurrentPage
     } = props;
     
     return(
@@ -15,8 +15,8 @@ function Header(props){
                 </a>
             </h2>
             <Nav
-            contactSelected={contactSelected}
-            setContactSelected={setContactSelected}
+            currentPage={currentPage}
+            setCurrentPage={setCurrentPage}
             ></Nav>
         </header>
     );

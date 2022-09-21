@@ -2,15 +2,15 @@ import React from "react";
 
 function Nav(props){
     const{
-        contactSelected,
-        setContactSelected
+        currentPage,
+        setCurrentPage
     } = props;
 
     return(
         <div className="Nav">
             <ul style={{listStyleType:"none"}}>
                 <li className="mx-2">
-                    <a href='#about'>
+                    <a href='#about' onClick={() => setCurrentPage('aboutMe')}>
                         About Me
                     </a>
                 </li>
@@ -19,11 +19,11 @@ function Nav(props){
                         Portfolio
                     </a>
                 </li>
-                <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-                    <span onClick={() =>setContactSelected(true)}>Contact</span>
+                <li className={`mx-2 ${currentPage && 'navActive'}`}>
+                    <span onClick={() =>setCurrentPage('contact')}>Contact</span>
                 </li>
                 <li className="mx-2">
-                    <a href="Resume">
+                    <a href="#resume" onClick={() => setCurrentPage('resume')}>
                         Resume
                     </a>
                 </li>
