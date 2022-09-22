@@ -1,7 +1,7 @@
 # React Portfolio
 ## Description
 
-Backend of social network API. Which allows people to add their username, add friends. Create a status update or "thought" and allows others to react to their thoughts.
+A portfolio created from react in order to display and show the skills of one individual. ME
 
 ## Table of Contents
 
@@ -19,9 +19,10 @@ Run `npm install`
 
 Run server with `npm start`
 
-# Photo
+# Photos
 
-
+![about](./src/assets/screenshots/about.png)
+![resume](./src/assets/screenshots/resume.png)
 
 ## Contributing 
 
