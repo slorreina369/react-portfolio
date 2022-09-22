@@ -1,8 +1,10 @@
 import React from "react";
+import meButLogo from '../../assets/logo/me-butLogo.jpg'
 
 function About(){
     return(
         <section>
+            <img src={meButLogo}/>
             <h1>About Me</h1>
             <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec metus risus. 

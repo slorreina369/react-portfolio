@@ -9,21 +9,23 @@ function Nav(props){
     return(
         <div className="Nav">
             <ul className="navList" style={{listStyleType:"none"}}>
-                <li className="mx-2">
-                    <a href='#about' onClick={() => setCurrentPage('aboutMe')}>
+                <li>
+                    <a href='#about' onClick={() => setCurrentPage('aboutMe')} className={`mx-2 navLink ${(currentPage === 'aboutMe') && 'navActive'}`}>
                         About Me
                     </a>
                 </li>
-                <li className="mx-2">
-                    <a href="#portfolio" onClick={() => setCurrentPage('portfolio')}>
+                <li>
+                    <a href="#portfolio" onClick={() => setCurrentPage('portfolio')} className={`mx-2 navLink ${(currentPage === 'portfolio') && 'navActive'}`}>
                         Portfolio
                     </a>
                 </li>
-                <li className={`mx-2 ${currentPage && 'navActive'}`}>
-                    <span onClick={() =>setCurrentPage('contact')}>Contact</span>
+                <li>
+                    <a href="#contact" onClick={() =>setCurrentPage('contact')} className={`mx-2 navLink ${(currentPage === 'contact') && 'navActive'}`}>
+                        Contact
+                    </a>
                 </li>
-                <li className="mx-2">
-                    <a href="#resume" onClick={() => setCurrentPage('resume')}>
+                <li>
+                    <a href="#resume" onClick={() => setCurrentPage('resume')} className={`mx-2 navLink ${(currentPage === 'resume') && 'navActive'}`}>
                         Resume
                     </a>
                 </li>
