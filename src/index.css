@@ -43,7 +43,7 @@ a:link, a:visited, li span{
   flex-grow: .4;
 }
 
-ul{
+.navList{
   display: flex;
   flex: auto;
   flex-wrap: wrap;
@@ -68,8 +68,12 @@ body{
   object-fit: cover;
 }
 
+.resume, .work{
+  text-align: left;
+}
+
 form{
-  width: 50%;
+  width: 20%;
   border: 4px solid var(--dark);
   box-sizing: border-box;
   display: inline-block;

@@ -4,26 +4,27 @@ import Project from "../Project";
 function Portfolio(){
     const [projects] = useState([
         {
+            name:'Daily Cocktail',
             url:'https://slorreina369.github.io/cocktail-day/',
             img:require('../../assets/project/daily-cocktail.jpg')
         },
         {
+            name:'Run Buddy',
             url:'https://slorreina369.github.io/run-buddy/',
             img:require('../../assets/project/run-buddy.jpg')
         },
         {
+            name:'Calc',
             url:'#',
             img:require('../../assets/project/calculations.jpg')
         },
         {
-            url:'#',
-            img:require('../../assets/project/oreo.jpeg')
-        },
-        {
+            name:'Pastel Puzzle',
             url:'#',
             img:require('../../assets/project/pastel-puzzle.jpg')
         },
         {
+            name:'Surf and Turf',
             url:'#',
             img:require('../../assets/project/surfing.jpg')
         }

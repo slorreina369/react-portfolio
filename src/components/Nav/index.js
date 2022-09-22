@@ -8,7 +8,7 @@ function Nav(props){
 
     return(
         <div className="Nav">
-            <ul style={{listStyleType:"none"}}>
+            <ul className="navList" style={{listStyleType:"none"}}>
                 <li className="mx-2">
                     <a href='#about' onClick={() => setCurrentPage('aboutMe')}>
                         About Me

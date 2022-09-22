@@ -5,6 +5,7 @@ function Project({project}){
         <li>
             <a href={project.url}>
             <img className="projectImg" src={project.img}/> 
+            <p>{project.name}</p>
             </a>
         </li>
 
