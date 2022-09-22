@@ -14,6 +14,11 @@ function Portfolio(){
             img:require('../../assets/project/run-buddy.jpg')
         },
         {
+            name:'Variables',
+            url:'#',
+            img:require('../../assets/project/variable.jpg')
+        },
+        {
             name:'Calc',
             url:'#',
             img:require('../../assets/project/calculations.jpg')
