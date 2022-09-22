@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import ContactForm from './components/Contact';
 import About from './components/About';
 import Resume from './components/Resume';
+import Portfolio from './components/Portfolio';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('aboutMe');
@@ -20,6 +21,9 @@ function App() {
       break;
     case 'resume':
       pageComponent = <Resume></Resume>;
+      break;
+    case 'portfolio':
+      pageComponent=<Portfolio></Portfolio>;
       break;
   }
 

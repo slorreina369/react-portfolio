@@ -15,7 +15,7 @@ function Nav(props){
                     </a>
                 </li>
                 <li className="mx-2">
-                    <a href="#portfolio">
+                    <a href="#portfolio" onClick={() => setCurrentPage('portfolio')}>
                         Portfolio
                     </a>
                 </li>
